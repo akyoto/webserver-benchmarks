@@ -4,6 +4,9 @@ ab -kc 10 -t 30 http://localhost:5000/
 ```
 Install via `sudo apt-get install apache2-utils` on Ubuntu.
 
+#Note
+The `raw` version doesn't contain routing. This is intentional. You can modify it to include routing if you want.
+
 #Versions
 Software      | Version
 ------------- | -------------
