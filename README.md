@@ -1,3 +1,9 @@
+#Command
+```bash
+ab -kc 10 -t 30 http://localhost:5000/
+```
+Install via `sudo apt-get install apache2-utils` on Ubuntu.
+
 #Versions
 Software      | Version
 ------------- | -------------
