@@ -1,5 +1,8 @@
-let http = require("http");
+"use strict";
+
+let http = require("http")
 
 http.createServer(function(request, response) {
-	response.end("Hello World");
-}).listen(5000);
+	if(request.url === '/')
+		response.end("Hello World")
+}).listen(5000)

@@ -1,8 +1,10 @@
-let express = require("express");
-let app = express();
+'use strict'
 
-app.get("/", function(request, response) {
-	response.end("Hello World");
-});
+let express = require('express')
+let app = express()
 
-app.listen(5000);
+app.get('/', function(request, response) {
+	response.end('Hello World')
+})
+
+app.listen(5000)
