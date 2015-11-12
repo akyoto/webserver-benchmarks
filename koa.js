@@ -10,6 +10,6 @@ router.get('/', function *(next) {
 
 // response
 app.use(router.routes())
-app.use(router.allowedMethods())
+//app.use(router.allowedMethods())
 
 app.listen(5000)
