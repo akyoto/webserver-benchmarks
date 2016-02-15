@@ -1,14 +1,20 @@
-'use strict'
-
 // You shouldn't use the server component only...
-// but for benchmarking it's quite interesting to see how fast the router is.
-let aero = require('aero')
-let Server = require('aero/lib/classes/Server')
+// but for benchmarking purposes it's interesting to see how fast the router is.
+global.Promise = require('bluebird')
+const Server = require('aero/lib/Server')
+const server = new Server()
 
-aero.server = new Server()
-
-aero.server.routes.GET[''] = function(request, response) {
+server.routes.GET = {}
+server.routes.GET[''] = function(request, response) {
 	response.end('Hello World')
 }
 
-aero.server.run(5000)
+server.routes.GET['test'] = function(request, response) {
+	response.end('Test')
+}
+
+server.run({
+	ports: {
+		http: 5002
+	}
+})

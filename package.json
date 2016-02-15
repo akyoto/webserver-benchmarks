@@ -10,10 +10,12 @@
 		"express": "*",
 		"restify": "*",
 		"koa": "*",
-		"koa-router": "*"
+		"koa-router": "*",
+		"hapi": "*",
+		"bluebird": "*"
 	},
 	"engines": {
-		"node": ">= 4.0.0"
+		"node": ">= 5.0.0"
 	},
 	"repository": {
 		"type": "git",
