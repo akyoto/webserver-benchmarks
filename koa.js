@@ -1,13 +1,14 @@
+const text = require('./lorem-ipsum')
 const koa = require('koa')
 const router = require('koa-router')()
 const app = koa()
 
 router.get('/', function *(next) {
-	this.body = 'Hello World'
+	this.body = text
 })
 
 router.get('/test', function *(next) {
-	this.body = 'Test'
+	this.body = text
 })
 
 // response
