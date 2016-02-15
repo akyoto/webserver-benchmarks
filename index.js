@@ -1,7 +1,7 @@
 require('strict-mode')(function () {
 	require('./raw.js')
+	require('./aero.js')
 	require('./koa.js')
-	require('./aero-server.js')
 	require('./express.js')
 	require('./hapi.js')
 })

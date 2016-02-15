@@ -1,5 +1,5 @@
 #!/bin/bash
-SERVERS=(Node Koa Aero Express Restify Koala Hapi)
+SERVERS=(Node Aero Restify Express Koa Koala Hapi)
 CONCURRENCY=10
 
 for port in {5000..5006}
