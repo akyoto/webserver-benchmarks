@@ -2,7 +2,7 @@ const Hapi = require('hapi')
 const server = new Hapi.Server()
 
 server.connection({
-	port: 5005
+	port: 5006
 })
 
 server.route({

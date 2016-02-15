@@ -6,4 +6,5 @@ require('strict-mode')(function () {
 	require('./hapi.js')
 })
 
+require('./koala.js')
 require('./restify.js')

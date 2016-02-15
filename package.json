@@ -11,6 +11,7 @@
 		"restify": "*",
 		"koa": "*",
 		"koa-router": "*",
+		"koala": "*",
 		"hapi": "*",
 		"bluebird": "*"
 	},
