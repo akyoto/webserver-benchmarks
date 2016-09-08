@@ -13,7 +13,8 @@
 		"koa-router": "*",
 		"koala": "*",
 		"hapi": "*",
-		"bluebird": "*"
+		"bluebird": "*",
+		"strict-mode": "*"
 	},
 	"engines": {
 		"node": ">= 5.0.0"

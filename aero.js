@@ -24,7 +24,9 @@ server.routes.GET = {
 }
 
 server.run({
-	ports: {
-		http: 5001
+	config: {
+		ports: {
+			http: 5001
+		}
 	}
 })
