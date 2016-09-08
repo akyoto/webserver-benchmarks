@@ -7,7 +7,7 @@ const server = new AeroServer()
 // Aero framework knows if a resource is static or dynamic
 // so it can cache headers. We emulate it in this test by
 // caching the headers here.
-let headers = {
+const headers = {
 	'Content-Length': Buffer.byteLength(text)
 }
 

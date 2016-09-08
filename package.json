@@ -8,6 +8,7 @@
 	"dependencies": {
 		"aero": "*",
 		"express": "*",
+		"feathers": "*",
 		"restify": "*",
 		"koa": "*",
 		"koa-router": "*",

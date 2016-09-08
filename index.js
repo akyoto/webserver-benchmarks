@@ -4,6 +4,7 @@ require('strict-mode')(function () {
 	require('./koa.js')
 	require('./express.js')
 	require('./hapi.js')
+	require('./feathers.js')
 })
 
 require('./koala.js')
